@@ -1,0 +1,46 @@
+<footer class="site-footer">
+ 
+  <div class="wrapper">
+
+   
+
+    <div class="footer-col-wrapper">
+  
+      <div class="footer-col  footer-col-1">
+        <a href="{{ site.baseurl }}/" class="site-title circle circle-jacob">●</a> <br>
+        
+         <a href="site-title">{{ site.title }}</a>
+          {% assign pages_list = site.pages %}
+ 
+       <ul class="social-media-list">
+
+        {% for node in pages_list %}
+        {% if node.position != null %}
+          {% if node.position == "up" %}
+          <li><a class="" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+         {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="footer-col  footer-col-2">
+               <a href="{{ site.baseurl }}/" class="site-title circle">●</a> 
+       <ul class="social-media-list">
+        {% for node in pages_list %}
+        {% if node.position != null %}
+          {% if node.position == "down" %}
+          <li><a class="" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+         {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+      </div>
+    <div class="footer-col  footer-col-3">
+        <!--<p class="text"><em>{{ site.description }}<em></p>-->
+      </div>
+      
+    </div>
+
+  </div>
+
+</footer>

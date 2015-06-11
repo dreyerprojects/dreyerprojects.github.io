@@ -1,0 +1,31 @@
+---
+layout: default
+footer: true
+---
+
+<div class="home">
+<img src="/images/paper.jpg">
+<p>{{ site.description }}</p>
+<p>Some recent projects include: </p>
+
+  <ul class="post-list">
+
+    {% for post in site.posts | limit: 4 %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>  
+
+  <p>If this site does not adequately address your concerns, please contact us via the channels below, or at <a href="mailto:info@dreyerprojects.info">info [at] dreyerprojects [dot] info</a></p>
+
+  
+<!--
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>

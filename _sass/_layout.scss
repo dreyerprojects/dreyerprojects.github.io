@@ -1,0 +1,462 @@
+/**
+ * Site header
+ */
+
+
+
+    .accent-line {
+    background-color: $grey-color-light;
+    width: 2px;
+    height: $spacing-unit*4;
+    position: absolute;
+    left: 50%;
+    margin: 0 auto;
+}
+
+
+.site-header {
+    /*background-image: linear-gradient(
+        to bottom, 
+        lighten(saturate($grey-color,20%), 37%), 
+        $inner-color $spacing-unit*0.2
+        );*/
+
+margin: 0;
+
+    #home {
+        width: 50%;
+        border-right: 2px solid pink;
+    }
+    #home a{
+        color: $outside-color;
+    }
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+.site-title {
+    
+    font-family: $secondary-font;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-top: 0;
+    float: right;
+    padding-bottom: 0.2em;
+    
+    &,
+    &:visited {
+        color: $text-color;
+    }
+}
+
+.circle {
+    color: $outside-color;
+    float: left;
+     &,
+    &:visited {
+        color: $outside-color;
+    }
+}
+
+.circle-max {
+    color: red;
+    float: left;
+     &,
+    &:visited {
+        color: red;
+    }
+}
+.circle-jacob {
+    color: pink;
+    float: left;
+     &,
+    &:visited {
+        color: pink;
+    }
+}
+
+.line {
+
+}
+/*
+@media all and (min-width:660px){
+.site-nav, .site-nav-left {
+    display: none;
+}
+}*/
+
+.site-nav {
+max-width: 200px;
+    font-family: $tertiary-font-family;
+
+ /*   background-image: url(/images/accents/home-date.svg);
+background-repeat: no-repeat;
+background-position: 20%;
+background-size: 60%;*/
+        margin-top: $spacing-unit; 
+
+        margin-bottom: 0; 
+    float: left; 
+
+    text-align: left;
+    font-size: $small-font-size; 
+
+
+
+    .page-link {
+        font-style: none;
+        font-weight: 300;
+        color: $grey-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+}
+
+
+ .site-nav-left {
+max-width: 100px;
+    font-family: $tertiary-font-family;
+ /*   background-image: url(/images/accents/home-date.svg);
+background-repeat: no-repeat;
+background-position: 20%;
+background-size: 60%;*/
+        margin-top: $spacing-unit; 
+        margin-bottom: 0; 
+        margin-left: $spacing-unit*0.7;
+    float: left; 
+
+    text-align: left;
+    font-size: $small-font-size; 
+    
+
+
+    .page-link {
+        font-style: none;
+        font-weight: 300;
+        color: $grey-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+
+    }
+
+
+
+/*
+    @include media-query($on-palm) {
+
+        top: 9px;
+        right: 30px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }*/
+}
+
+
+
+
+
+.page-description {/*
+    background-image: url(/images/accents/home-date-left.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right;*/
+
+    font-weight: bold;
+}
+#upper {
+    width: 30%;
+
+    color: orange;
+    font-size: $small-font-size*0.9;
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    /*
+        background-image: linear-gradient(
+        to top, 
+        lighten(saturate($grey-color,20%), 37%), 
+        $inner-color $spacing-unit*0.2
+        );
+       background-image: linear-gradient(
+        to top, 
+        $background-color, 
+        $background-color $spacing-unit, 
+        transparent $spacing-unit, 
+        transparent
+        );*/
+
+    font-family: $tertiary-font-family;
+    padding: $spacing-unit 0;
+}
+
+.text {
+    font-family: $base-font-family; 
+    color: $grey-color; 
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+font-style: none;
+    list-style: none;
+    margin-left: 0;
+    a {
+            color: $grey-color;
+        &,
+    &:visited {
+        color: $grey-color;
+    }
+    }
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    border-top: $brand-line;
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    border-top: $brand-line;
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col {
+        font-size: $small-font-size*0.97;
+
+    }
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+        width:         calc(35% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+        width:         calc(30% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        font-size: $small-font-size*0.9;
+
+}
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    }
+    .footer-col-3 {
+        width: 100%;
+        width: 100%;
+    }
+}
+
+#copyright {
+    text-align: left;
+    margin: 0 auto;
+    font-size: $small-font-size;
+    color: $grey-color;
+    padding-left: $spacing-unit*2;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/**
+ * Page content
+ */
+
+
+
+.page-content {
+    padding: $spacing-unit*2 0 0;
+}
+
+
+
+.paragraphs {
+    max-width: 650px;
+    margin: 0 auto;
+    padding-bottom: $spacing-unit;
+}
+
+
+.page-heading {
+    text-align: center;
+}
+
+.post-list {
+max-width: 400px;
+    margin: 0 $spacing-unit;
+    padding-top: 0;
+    list-style: none;
+    li {
+        
+        margin-bottom: $spacing-unit;
+    }
+     p {
+           
+        font-style: italic;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+ 
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+} 
+
+.bubble {
+
+}
+
+.wide-nav {
+        
+       text-transform: uppercase;
+    padding-top: $spacing-unit*0.5;
+    width: 100%;
+    position: relative;
+}
+.wide-nav a {
+     font-family: $tertiary-font-family;
+    font-size: $base-font-size; 
+       font-weight: 300;
+        color: $grey-color;
+        width: 20%; 
+        float: left;
+    margin: 0; padding: 0;
+    text-align: center;
+}
+@media all and (max-width:660px){
+.wide-nav {
+    display: none;
+}
+}
+
+.max-color {
+    color: $max-color;
+}
+.jacob-color {
+    color: $jacob-color;
+}

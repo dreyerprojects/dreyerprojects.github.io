@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+<div class="wrap">
+  <header class="site-header">
+  <div class="wrapper">
+
+    {% include header-alt.html %}   
+  </div>
+  </header> 
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="paragraphs">
+        {{ content }}
+      </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+</div class="wrap">
+<div  id="copyright">
+<small>© Max & Jacob Dreyer. </small>
+</div>
+  </body>
+
+</html>
