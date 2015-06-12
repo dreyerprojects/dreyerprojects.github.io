@@ -5,6 +5,7 @@ categories: recordings
 description: 2006 album released by Max&#146;s highschool pop group, Love Tentacle Drip Society. 
 thumbnail: /images/cowboy.jpg
 permalink: /recordings/ltds/
+published: false
 ---
 
 Only available for [download](#). 

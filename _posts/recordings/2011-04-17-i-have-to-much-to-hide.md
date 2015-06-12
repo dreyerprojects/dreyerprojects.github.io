@@ -5,6 +5,7 @@ categories: recordings
 description: Archival recordings regarding Your Spirit Animal, a psychedelic pop group. 
 thumbnail: /images/too_much.jpg
 permalink: /recordings/i-have-too-much-to-hide/
+published: false
 ---
 
 ![Max Dreyer](/images/too_much.jpg)

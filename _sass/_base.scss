@@ -16,18 +16,9 @@ border: none;
 }
 
 .wrap {
-            /*background-image: url(/images/paper-cropped-opaque.png);
-    background-repeat: no-repeat;
-    background-position: 100% 0; 
-    @include media-query($on-palm) {
-background-image: none;
-}
-    @include media-query($on-laptop) {
-background-image: none;
-}*/
-
     background-color: $inner-color;
 }
+
 @media all and (min-width:469px){
     .wrap {
             margin: $spacing-unit*0.5 $spacing-unit*0.5;
@@ -37,30 +28,15 @@ background-image: none;
  * Basic styling
  */
 body {
-/*
-       background-image:
-    linear-gradient(
-      to right, 
-      $background-color,
-      $background-color 2%,
-      $inner-color 2%,
-      $inner-color 98%,
-      $background-color 98%, 
-      $background-color
-    );*/
-    
- 
     font-family: $base-font-family; 
     line-height: $base-line-height; 
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
-
     -webkit-text-size-adjust: 100%;
 }
 
 @media all {html {font-size: 19px;}}
-
 @media all and (max-width:760px){html {font-size: 19px;}}
 @media all and (max-width:620px){html {font-size: 18px;}}
 @media all and (max-width:480px){html {font-size: 17px;}}
@@ -264,20 +240,3 @@ pre {
 }
 
 
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}

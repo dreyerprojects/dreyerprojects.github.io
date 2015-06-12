@@ -5,6 +5,7 @@ categories: recordings
 description: Destruction in all its forms. 
 thumbnail: /images/bones.jpg
 permalink: /recordings/man-will-worship-bones/
+published: false
 ---
 
 ![man will worship bones cover](/images/bones.jpg)
