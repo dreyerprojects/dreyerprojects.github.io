@@ -1,12 +1,11 @@
 # Site settings
 title: Dreyer Projects
-email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to the public face of the Dreyer brothers, Max & Jacob. 
   This website collects & ellucidates the Dreyer&rsquo;s projects to
   keep you informed and up to date. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000/" # the base hostname & protocol for your site
+url: "http://dreyerprojects.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
