@@ -15,3 +15,10 @@ collections:
   documents:
     output: true
     permalink: /documents/:path/
+
+# Prose settings
+prose:
+  rooturl: ''
+  siteurl: 'http:dreyerprojects.info/'
+  media: 'images'
+ 
