@@ -21,4 +21,10 @@ prose:
   rooturl: ''
   siteurl: 'http:dreyerprojects.info/'
   media: 'images'
+  ignore:
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_site
+    - /images
  
