@@ -30,7 +30,7 @@
       <div class="footer-col  footer-col-2 bubble">
                     <h3 class="jacob-color">●</h3>
         <ul class="social-media-list">
-          <p><b>Jacob Dreyer</b> <span>{% if page.footer == true %}{% for bio in site.data.bios.jacob %}{{ jacob.bio }}{% endfor %}{% endif %}</span></p>
+          <p><b>Jacob Dreyer</b> <span>{% if page.footer == true %}{% for bio in site.data.bios %}{% if bio.name == "jacob" %}{{ bio.bio }}{% endif %}{% endfor %}{% endif %}</span></p>
 
           <li>
             <a href="mailto:jacobaugustusdreyer@gmail.com">Mail</a>
