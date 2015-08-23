@@ -27,4 +27,10 @@ prose:
     - /_includes
     - /_site
     - /images
+    - /_sass
+    - /css
+    - /.gitignore 
+    - /CNAME 
+    - /feed.xml
+    
  
