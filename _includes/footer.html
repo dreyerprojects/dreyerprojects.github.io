@@ -11,7 +11,7 @@
       <div class="footer-col  footer-col-1 bubble">
        <h3 class="max-color">●</h3>
         <ul class="contact-list">
-         <p><b>Max Dreyer</b> {% if page.footer == true %}is a musician and producer based in New York City. His compositional and recording projects are collected <a href="http://maxdreyer.com">here</a>.{% endif %}</p>
+         <p><b>Max Dreyer</b> {% if page.footer == true %}{% for bio in site.data.bios %}{% if bio.name == "max" %}{{ bio.bio }}{% endif %}{% endfor %}{% endif %}</p>
               <li>
             <a href="mailto:max.dreyer@gmail.com">Mail</a>
             </a>
