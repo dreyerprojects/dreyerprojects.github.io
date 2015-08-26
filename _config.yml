@@ -36,15 +36,25 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "text"
-          value: "post"
-          alterable: true
+          element: "select"
+          label: "Select page type"
+          options:
+            - name: "post"
+              value: "post"
+            - name: "pdf"
+              value: "pdf"
+            - name: "link"
+              value: "link"
       - name: "categories"
         field:
-          element: "multiselect"
-          label: "Add Categories"
-          placeholder: "Add Categories"
-          alterable: true
+          element: "select"
+          label: "Select page category"
+          placeholder: "...is it music or writing?"
+          options:
+            - name: "recordings"
+              value: "recordings"
+            - name: "writing"
+              value: "writing"
       - name: "title"
         field:
           element: "text"
