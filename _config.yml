@@ -21,35 +21,6 @@ prose:
   rooturl: ''
   siteurl: 'http:dreyerprojects.info/'
   media: 'images'
-  _posts:
-  - name: "published"
-    field:
-      element: 'select'
-      label: "Published"
-      placeholder: "Display or hide page"
-      options: 
-        - name: "true"
-          value: "true"
-        - name: "false"
-          value: "false"
-  - name: "categories"
-        field:
-          element: "select"
-          label: "Add Categories"
-          placeholder: "Choose Tags"
-          options:
-            - name: "recordings"
-              value: "recordings"
-            - name: "writing"
-              value: "writing"
-            - name: "link"
-              value: "link"
-            - name: "pdf"
-              value: "pdf"
-  - name: "title"
-    field:
-      element: "text"
-      label: "title"
   ignore:
     - _config.yml
     - /_layouts
@@ -61,5 +32,5 @@ prose:
     - /.gitignore 
     - /CNAME 
     - /feed.xml
-    
+
  
