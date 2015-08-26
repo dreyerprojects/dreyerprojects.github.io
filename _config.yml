@@ -33,21 +33,22 @@ prose:
     - /CNAME 
     - /feed.xml
   metadata:
-  _posts:
-    - name: "layout"
-      field:
-        element: "hidden"
-        value: "post"
-    - name: "categories"
-      field:
-        element: "multiselect"
-        label: "Add Categories"
-        placeholder: "Add Categories"
-        alterable: true
-    - name: "title"
-      field:
-        element: "text"
-        label: "Post title"
-        placeholder: "Title"
-        alterable: true
+    _posts:
+      - name: "layout"
+        field:
+          element: "text"
+          value: "post"
+          alterable: true
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Add Categories"
+          alterable: true
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
  
