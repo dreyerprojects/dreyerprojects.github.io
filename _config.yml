@@ -61,4 +61,10 @@ prose:
           label: "Post title"
           placeholder: "Title"
           alterable: true
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description of project"
+          placeholder: "A brief description of the project this page concerns."
+          alterable: true
  
