@@ -18,7 +18,7 @@ collections:
 
 # Prose settings
 prose:
-  rooturl: ''
+  rooturl: '_posts'
   siteurl: 'http:dreyerprojects.info/'
   media: 'images'
   ignore:
@@ -32,22 +32,22 @@ prose:
     - /.gitignore 
     - /CNAME 
     - /feed.xml
-    metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add Categories"
-          placeholder: "Add Categories"
-          alterable: true
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
+  metadata:
+  _posts:
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "post"
+    - name: "categories"
+      field:
+        element: "multiselect"
+        label: "Add Categories"
+        placeholder: "Add Categories"
+        alterable: true
+    - name: "title"
+      field:
+        element: "text"
+        label: "Post title"
+        placeholder: "Title"
+        alterable: true
  
