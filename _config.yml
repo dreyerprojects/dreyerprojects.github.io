@@ -67,4 +67,23 @@ prose:
           label: "Description of project"
           placeholder: "A brief description of the project this page concerns."
           alterable: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Enter the desired permalink for this project, following the format below."
+          placeholder: "/category/desired-link-text/"
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date associated with project"
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "hyperlink"
+        field:
+          element: "text"
+          label: "If the category of this project is 'link', enter link here. MUST INCLUDE SINGLE QUOTES AS BELOW :) or it will break."
+          placeholder: "'http://somewebsite.guru/an-article-by-jacob-perhaps/'"
+          alterable: true
+          
  
