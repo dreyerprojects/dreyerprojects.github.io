@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: page
 title: Information
 position: up
 permalink: /information/
 published: true
-categories: recordings
-description: null
-date: ""
-hyperlink: ""
 ---
 
 
