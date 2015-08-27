@@ -53,12 +53,12 @@ prose:
           label: "Select page category"
           help: "...is it music, writing, or something else entirely?"
           options:
-            - name: "recordings"
-              value: "recordings"
-            - name: "writing"
-              value: "writing"
             - name: "documents, misc"
               value: ""
+            - name: "writing"
+              value: "writing"
+            - name: "recordings"
+              value: "recordings"
       - name: "title"
         field:
           element: "text"
