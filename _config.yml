@@ -85,5 +85,9 @@ prose:
           label: "If the category of this project is 'link', enter link here."
           placeholder: "http://somewebsite.com/an-article-by-jacob-perhaps/"
           alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Is it ready to go live?"
           
  
