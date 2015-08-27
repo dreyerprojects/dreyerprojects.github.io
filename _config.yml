@@ -96,5 +96,66 @@ prose:
         field:
           element: "checkbox"
           label: "Is it ready to go live?"
-          
- 
+    '_documents':
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Select page type"
+          options:
+            - name: "post"
+              value: "post"
+            - name: "pdf"
+              value: "pdf"
+            - name: "link"
+              value: "link"
+            - name: "page"
+              value: "page"
+      - name: "categories"
+        field:
+          element: "select"
+          label: "Select page category"
+          help: "...is it music, writing, or something else entirely?"
+          options:
+            - name: "documents, misc"
+              value: ""
+            - name: "writing"
+              value: "writing"
+            - name: "recordings"
+              value: "recordings"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description of project"
+          help: "A brief description of the project this page concerns. This description will go three places: top of the project page, alongside project title elsewhere on site, and in description for google search results."
+          placeholder: "A project/essay/record on the subject of tandemfriends/shanghai/snookyspawnshop/etc. As seen on TV!"
+          alterable: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Enter the desired permalink for this project, following the format below."
+          placeholder: "/category/desired-link-text/"
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Date associated with project. Leave blank for posts on documents page."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "hyperlink"
+        field:
+          element: "text"
+          lavel: "Link"
+          help: "If the category of this project is 'link', enter link address here."
+          placeholder: "http://somewebsite.com/an-article-by-jacob-perhaps/"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Is it ready to go live?"
