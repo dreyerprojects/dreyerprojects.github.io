@@ -45,6 +45,8 @@ prose:
               value: "pdf"
             - name: "link"
               value: "link"
+            - name: "page"
+              value: "page"
       - name: "categories"
         field:
           element: "select"
