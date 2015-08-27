@@ -1,11 +1,17 @@
 ---
-layout: page
+layout: post
 title: Information
 position: up
 permalink: /information/
+published: true
+categories: recordings
+description: null
+date: ""
+hyperlink: ""
 ---
 
-Descended from the bleak, sandy islets of Northern Europe, the Dreyer brothers were reared in Charlottesville, Virginia, a city which remains their emotional if not actual base of operations. 
+
+Descended from the bleak, sandy islets of Northern Europe, the Dreyer brothers were reared in Charlottesville, Virginia, a city which remains their emotional if not actual base of operations.
 
 Dreyer Projects Global HQ is now based on Shanghai's Huaihai Road in order to address the large and continuous scale of projects taking place in that vicinity. Currently, projects are underway all around the world, including New York, Los Angeles, London, Amsterdam, and Bangkok, under the supervision of local operatives. 
 
