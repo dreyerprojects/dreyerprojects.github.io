@@ -33,7 +33,7 @@ prose:
     - /CNAME 
     - /feed.xml
   metadata:
-    '':
+    '_posts':
       - name: "layout"
         field:
           element: "select"
