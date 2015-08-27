@@ -3,7 +3,6 @@ title: Day Will Follow Night
 layout: post
 categories: recordings
 description: "a collection of tunes about time and space" 
-thumbnail: /images/day_night.jpg
 permalink: /recordings/day-will-follow-night/
 published: false
 ---
