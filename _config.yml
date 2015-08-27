@@ -82,8 +82,8 @@ prose:
       - name: "hyperlink"
         field:
           element: "text"
-          label: "If the category of this project is 'link', enter link here. MUST INCLUDE SINGLE QUOTES AS BELOW :) or it will break."
-          placeholder: "'http://somewebsite.guru/an-article-by-jacob-perhaps/'"
+          label: "If the category of this project is 'link', enter link here."
+          placeholder: "http://somewebsite.com/an-article-by-jacob-perhaps/"
           alterable: true
           
  
