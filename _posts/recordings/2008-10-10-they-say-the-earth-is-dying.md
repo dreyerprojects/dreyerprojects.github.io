@@ -3,7 +3,6 @@ title: They Say the Earth is Dying
 layout: post
 categories: recordings
 description: A fantasia in E minor on the evolutionary transition from the sea to the land to the stars. 
-thumbnail: /images/dying.jpg
 permalink: /recordings/they-say-the-earth-is-dying/
 published: false
 ---
