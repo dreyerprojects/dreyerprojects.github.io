@@ -76,6 +76,7 @@ prose:
         field:
           element: "text"
           label: "Enter the desired permalink for this project, following the format below."
+          value: ""
           placeholder: "/category/desired-link-text/"
           alterable: true
       - name: "date"
@@ -127,6 +128,7 @@ prose:
         field:
           element: "text"
           label: "Enter the desired permalink for this project, following the format below."
+          value: ""
           placeholder: "/category/desired-link-text/"
           alterable: true
       - name: "hyperlink"
