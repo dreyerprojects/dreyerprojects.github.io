@@ -1,16 +1,12 @@
 ---
-layout: link
+layout: post
 categories: writing
 description: thing
 permalink: /writing/testtt/
 date: "1920-01-01"
-hyperlink: "http://jamesonzimmer.com"
+hyperlink: ""
 published: true
-title: Untitledh
+title: test
 ---
 
-
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or chlick the **?** button for jformatting help.j
-h
+test
