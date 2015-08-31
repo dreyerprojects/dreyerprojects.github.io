@@ -17,7 +17,7 @@ Recent projects include &lsquo;The Nocturnal Wanderer&rsquo;, a book forthcoming
       <li>
         <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
         <h2>
-          <a class="post-link" href="{% if post.hyperlink != "" %}{{ post.hyperlink }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
+          <a class="post-link" href="{% if post.hyperlink != "" %}{{ post.hyperlink }}{% else %}{{ post.permalink | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
         </h2>
         <p>{{ post.description }}</p>
       </li>
