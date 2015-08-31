@@ -2,7 +2,7 @@
 layout: link
 categories: writing
 description: thing
-permalink: ""
+permalink: /writing/testtt/
 date: "1920-01-01"
 hyperlink: "http://jamesonzimmer.com"
 published: true
