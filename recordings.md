@@ -3,7 +3,9 @@ layout: page
 title: Recordings
 position: down
 permalink: /recordings/
+published: true
 ---
+
 
 ![compositions by max dreyer](/images/music.jpg)
 
@@ -15,7 +17,7 @@ A collection of recordings by Max Dreyer, also known as The Dirt Eater.
       <li>
         <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{% if post.layout == 'link' %}{{ post.hyperlink }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
         </h2>
         <p>{{ post.description }}</p>
       </li>
