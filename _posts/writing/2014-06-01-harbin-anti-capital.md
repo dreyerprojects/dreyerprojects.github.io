@@ -1,7 +1,12 @@
 ---
-title: "Harbin: Anti-Capital"
+layout: link
+categories: writing
+description: null
+permalink: ""
+date: "2014-06-01"
 hyperlink: "http://www.concreteflux.com/harbin-anti-capital---jacob-dreyer.html"
-date: 2014-06-01
-categories: writing 
+published: false
+title: Untitled
 ---
+
 
