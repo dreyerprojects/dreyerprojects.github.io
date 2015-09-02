@@ -6,7 +6,9 @@ published: true
 description: "portfolio of Max Dreyer, music producer and recording artist based in New York."
 ---
 
+Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. 
 
-![THIS PAGE UNDER CONSTRUCTION](http://animatedgif.net/underconstruction/anim0206-1_e0.gif)
+![dummy picture]({{site.baseurl}}/images/00moonn.JPG)
 
-Check back soon...
+Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. Dummy text. 
+
