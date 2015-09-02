@@ -3,6 +3,7 @@ layout: subdomain
 title: Max Dreyer Portfolio
 permalink: /max/
 published: true
+description: "portfolio of Max Dreyer, music producer and recording artist based in New York."
 ---
 
 
