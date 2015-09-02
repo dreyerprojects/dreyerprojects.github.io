@@ -47,6 +47,8 @@ prose:
               value: "link"
             - name: "page"
               value: "page"
+            - name: "subdomain"
+              value: "subdomain"
       - name: "categories"
         field:
           element: "select"
