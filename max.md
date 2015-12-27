@@ -30,5 +30,5 @@ Mixing/Mastering
 Working at East Side Sound, Max has access to high-level professional equipment, with which to fine tune recordings, and imbue them with the sonic breadth that allows them to be their best selves, in any audio context. Examples below.
 
 <a href="https://themontederosasband.bandcamp.com/"> 
-The Monte de Rosas Band - NYC Flower Pots</a>
+The Monte de Rosas Band - NYC Flower Pots</a><br>
 Mastered for vinyl in the winter of 2014.
