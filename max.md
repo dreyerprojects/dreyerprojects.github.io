@@ -17,6 +17,8 @@ Nicholas Maximilian Dreyer is a composer, songwriter, guitarist, recording & mix
 
 He grew up in the Blue Ridge Mountains, playing fiddle from an early age, before moving on to electric guitar in his teen years. He earned a BA in composition & electronic sound design from the University of Virginia, working with composers such as Alvin Lucier, Pauline Oliveros, Matmos, and many others. Steeped in the history of recorded music, he left for Shanghai for four years, where he played guitar at weddings during the day and in seedy nightclubs after the sun went down. Now, in New York City, he records local bands, mixes & masters albums, fronts a rock trio, and builds analogue audio electronics, from simple guitar pedals, to complex modular synthesizers.
 
+![ltds0.jpg]({{site.baseurl}}/images/ltds0.jpg)
+
 Composition
 
 With a degree in composition, and an ear for sonic textures, Max finds himself composing soundscapes and scores quite often - for films, luxury events, and promotions. 
