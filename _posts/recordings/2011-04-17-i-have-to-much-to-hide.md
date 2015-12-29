@@ -4,8 +4,8 @@ layout: post
 categories: recordings
 description: "Archival recordings regarding Your Spirit Animal, a psychedelic pop group."
 permalink: "/recordings/i-have-too-much-to-hide/"
-published: false
-date: ""
+published: true
+date: "2010-01-20"
 hyperlink: ""
 ---
 
