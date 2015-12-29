@@ -5,7 +5,7 @@ categories: recordings
 description: a collection of tunes about time and space
 permalink: "/recordings/day-will-follow-night/"
 published: true
-date: ""
+date: "01/01/2012"
 hyperlink: ""
 ---
 
