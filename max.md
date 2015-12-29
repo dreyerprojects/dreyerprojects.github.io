@@ -19,18 +19,18 @@ He grew up in the Blue Ridge Mountains, playing fiddle from an early age, before
 
 ![ltds0.jpg]({{site.baseurl}}/images/ltds0.jpg)
 
-Composition
+##Composition
 
 With a degree in composition, and an ear for sonic textures, Max finds himself composing soundscapes and scores quite often - for films, luxury events, and promotions. 
 
-Arrangement
+##Arrangement
 
 Since age 13, Max has been creating arrangements, both for his own music, and to help other songwriters flesh out their ideas. Below are a few examples of songs arranged and produced by Max - from a simple acoustic guitar and voice, to bass, drums, keyboards - the palette available to a recording artist is more varied than it ever has been.
 
-Mixing/Mastering
+##Mixing/Mastering
 
 Working at East Side Sound, Max has access to high-level professional equipment, with which to fine tune recordings, and imbue them with the sonic breadth that allows them to be their best selves, in any audio context. Examples below.
 
 <a href="https://themontederosasband.bandcamp.com/"> 
-The Monte de Rosas Band - NYC Flower Pots</a><br>
+#The Monte de Rosas Band - NYC Flower Pots</a><br>
 Mastered for vinyl in the winter of 2014.
