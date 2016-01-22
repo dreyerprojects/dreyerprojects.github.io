@@ -4,8 +4,8 @@ layout: post
 categories: recordings
 description: "2006 album released by Max's highschool pop group, Love Tentacle Drip Society."
 permalink: /recordings/ltds/
-published: false
-date: "2011-01-01"
+published: true
+date: "2006-01-01"
 hyperlink: ""
 ---
 
