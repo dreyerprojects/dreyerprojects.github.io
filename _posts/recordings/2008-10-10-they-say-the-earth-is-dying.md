@@ -4,8 +4,8 @@ layout: post
 categories: recordings
 description: A fantasia in E minor on the evolutionary transition from the sea to the land to the stars.
 permalink: "/recordings/they-say-the-earth-is-dying/"
-published: false
-date: "2010-01-01"
+published: true
+date: "2009-06-06"
 hyperlink: ""
 ---
 
