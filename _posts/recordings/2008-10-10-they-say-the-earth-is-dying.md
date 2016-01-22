@@ -5,14 +5,12 @@ categories: recordings
 description: A fantasia in E minor on the evolutionary transition from the sea to the land to the stars.
 permalink: "/recordings/they-say-the-earth-is-dying/"
 published: false
-date: ""
+date: "2010-01-01"
 hyperlink: ""
 ---
 
 
 ![they say the earth is dying](/images/dying.jpg)
-
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3865714654/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://dirteater.bandcamp.com/album/they-say-the-earth-is-dying">They Say the Earth is Dying by Dirt Eater</a></iframe>
 
 <center>
 <iframe width="400" height="100" style="position: relative; display: block; width: 400px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=3865714654/size=venti/bgcol=FFFFFF/linkcol=4285BB/transparent=true/" allowtransparency="true" frameborder="0"><a href="http://dirteater.bandcamp.com/album/they-say-the-earth-is-dying">Day Will Follow Night by Dirt Eater</a></iframe>
