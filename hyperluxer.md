@@ -1,7 +1,7 @@
 ---
 layout: subdomain
-title: Max Dreyer Portfolio
-permalink: /max/
+title: Hyperluxer
+permalink: /hyperluxer/
 published: true
 description: "Homepage of Hyperluxer, Brooklyn based rock trio."
 ---
