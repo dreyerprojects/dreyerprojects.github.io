@@ -6,6 +6,6 @@ categories: writing
 hyperlink: "http://www.thechinabeat.org/?p=3109"
 published: true
 layout: link
-permalink: ""
+permalink: "/writing/memories-hyper/"
 ---
 
