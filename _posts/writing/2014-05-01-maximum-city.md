@@ -6,6 +6,6 @@ categories: writing
 hyperlink: "http://calvertjournal.com/comment/show/2760/soviet-era-urbanism-russia-reborn-in-modern-chinese-cities"
 published: true
 layout: link
-permalink: ""
+permalink: "/writing/maximum-city/"
 ---
 
