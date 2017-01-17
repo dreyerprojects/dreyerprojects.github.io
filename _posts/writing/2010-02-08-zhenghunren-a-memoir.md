@@ -6,6 +6,6 @@ categories: writing
 hyperlink: "http://www.thechinabeat.org/?p=1474"
 published: true
 layout: link
-permalink: ""
+permalink: "/writing/zhenghunren-memoir/"
 ---
 
