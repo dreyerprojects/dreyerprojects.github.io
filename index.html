@@ -10,7 +10,7 @@ footer: true
 
   <ul class="post-list">
 
-    {% for post in site.posts | limit: 4 %}
+    {% for post in site.posts limit: 4 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
 
