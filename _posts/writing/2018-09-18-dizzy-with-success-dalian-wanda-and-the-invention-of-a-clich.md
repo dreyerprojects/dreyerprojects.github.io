@@ -1,6 +1,6 @@
 ---
 layout: link
-published: false
+published: true
 title: 'Dizzy with success: dalian wanda and the invention of a cliché'
 categories: writing
 hyperlink: >-
