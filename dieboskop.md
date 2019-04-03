@@ -8,8 +8,6 @@ description: 'Website of Die Boskop, a two piece rock band based in Brooklyn, Ne
 
 ![IMG_20190212_115637.jpg]({{site.baseurl}}/images/IMG_20190212_115637.jpg)
 
-Bandcamp Tracks
-
 Die Boskop is a two piece rock band based in Brooklyn, New York. Drawing on prog rock, grunge, and the storytelling of Appalachian ballads, we write songs aboute times, places, and states of mind.
 
 
